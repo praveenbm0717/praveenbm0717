@@ -15,7 +15,7 @@
 </div>
 
 <p align="center">
-  <img src="./dark.svg" alt="Praveen B.M. — Data Analyst and ML Enthusiast">
+  <img src="./light.svg" alt="Praveen B.M. — Data Analyst and ML Enthusiast">
 </p>
 
 ---
