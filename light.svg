@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610"
+ role="img" aria-label="Praveen B.M. — Data Analyst and ML Enthusiast">
+<title>Praveen B.M. — Data Analyst · ML Enthusiast</title>
+<desc>Premium terminal-style profile banner with a high-contrast ASCII portrait, technical identity, selected stack and projects.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#F7FAFC"/><stop offset=".55" stop-color="#EEF6FF"/><stop offset="1" stop-color="#F1F5F9"/>
+  <animate attributeName="x2" values="1;.75;1" dur="18s" repeatCount="indefinite"/>
+ </linearGradient>
+ <linearGradient id="accent" x1="0" x2="1">
+  <stop offset="0" stop-color="#6D28D9"/><stop offset=".5" stop-color="#0E7490"/><stop offset="1" stop-color="#047857"/>
+  <animate attributeName="x1" values="0;1;0" dur="12s" repeatCount="indefinite"/>
+  <animate attributeName="x2" values="1;0;1" dur="12s" repeatCount="indefinite"/>
+ </linearGradient>
+ <radialGradient id="glow1"><stop offset="0" stop-color="#0E7490" stop-opacity=".18"/><stop offset="1" stop-color="#0E7490" stop-opacity="0"/></radialGradient>
+ <radialGradient id="glow2"><stop offset="0" stop-color="#6D28D9" stop-opacity=".15"/><stop offset="1" stop-color="#6D28D9" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+  <path d="M32 0H0V32" fill="none" stroke="#CBD5E1" stroke-opacity=".12" stroke-width="1"/>
+ </pattern>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+  <feDropShadow dx="0" dy="9" stdDeviation="12" flood-color="#000" flood-opacity=".12"/>
+ </filter>
+ <filter id="portraitGlow" x="-25%" y="-25%" width="150%" height="150%">
+  <feGaussianBlur stdDeviation="2.5" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+ </filter>
+ <style>
+  .mono {font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
+  .ascii {font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; letter-spacing:-.08px; white-space:pre}
+  .label {font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:10.5px;letter-spacing:1.8px}
+  .value {font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:13px}
+  .small {font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:10px}
+  .body {font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:13px}
+ </style>
+</defs>
+
+<rect x="2" y="2" width="1176" height="606" rx="24" fill="url(#bg)" stroke="#CBD5E1" stroke-opacity=".55"/>
+<rect x="2" y="2" width="1176" height="606" rx="24" fill="url(#grid)"/>
+<circle cx="205" cy="190" r="270" fill="url(#glow1)"><animate attributeName="opacity" values=".55;.9;.55" dur="8s" repeatCount="indefinite"/></circle>
+<circle cx="1035" cy="475" r="300" fill="url(#glow2)"><animate attributeName="opacity" values=".5;.8;.5" dur="11s" repeatCount="indefinite"/></circle>
+
+<!-- terminal header -->
+<rect x="20" y="18" width="1140" height="42" rx="12" fill="#FFFFFF" fill-opacity=".82" stroke="#CBD5E1" stroke-opacity=".58"/>
+<circle cx="42" cy="39" r="6" fill="#EF4444"/><circle cx="62" cy="39" r="6" fill="#F59E0B"/><circle cx="82" cy="39" r="6" fill="#22C55E"/>
+<text x="105" y="44" class="small" fill="#475569">praveenbm0717@profile</text>
+<text x="1040" y="44" class="small" fill="#047857">● ONLINE</text>
+
+<!-- left portrait panel -->
+<rect x="28" y="78" width="500" height="468" rx="20" fill="#FFFFFF" fill-opacity=".36" stroke="#CBD5E1" stroke-opacity=".58" filter="url(#shadow)"/>
+<text x="54" y="108" class="label" fill="#0E7490">VISUAL.MAP</text>
+<text x="420" y="108" class="small" fill="#475569">PORTRAIT / ASCII</text>
+<line x1="54" y1="121" x2="502" y2="121" stroke="url(#accent)" stroke-opacity=".58"/>
+
+<rect x="50" y="134" width="456" height="348" rx="18" fill="#F1F5F9" fill-opacity=".22" stroke="#0E7490" stroke-opacity=".12"/>
+<g filter="url(#portraitGlow)">
+<text x="52" y="144.00" class="ascii" style="font-size:5.0px" fill="#075985">                         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="149.02" class="ascii" style="font-size:5.0px" fill="#075985">                       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="154.04" class="ascii" style="font-size:5.0px" fill="#075985">                     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="159.06" class="ascii" style="font-size:5.0px" fill="#075985">                    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="164.08" class="ascii" style="font-size:5.0px" fill="#075985">                  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="169.10" class="ascii" style="font-size:5.0px" fill="#075985">                 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="174.12" class="ascii" style="font-size:5.0px" fill="#075985">               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="179.14" class="ascii" style="font-size:5.0px" fill="#075985">              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="184.16" class="ascii" style="font-size:5.0px" fill="#075985">             @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="189.18" class="ascii" style="font-size:5.0px" fill="#075985">            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="194.20" class="ascii" style="font-size:5.0px" fill="#075985">           @@@@@@@@@@@@@@@@@@@@@@@@@#****#@@@@****#@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="199.22" class="ascii" style="font-size:5.0px" fill="#075985">          @@@@@@@@@@@@@@@@@@@@@@@#*+=:::::::..     .-=*@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="204.24" class="ascii" style="font-size:5.0px" fill="#075985">          @@@@@@@@@@@@@@@@@@@@@#***+-::..              :=*@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="209.26" class="ascii" style="font-size:5.0px" fill="#075985">         @@@@@@@@@@@@@@@@@@@@@@*++==-:..                  .-+#@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="214.28" class="ascii" style="font-size:5.0px" fill="#075985">        @@@@@@@@@@@@@@@@@@@@@@@*+=-:..                      .:+**@@@@@@@@@@@@@@@@</text>
+<text x="52" y="219.30" class="ascii" style="font-size:5.0px" fill="#075985">       @@@@@@@@@@@@@@@@@@@@@@@#*=-::.                       ..:=+*@@@@@@@@@@@@@@@@</text>
+<text x="52" y="224.32" class="ascii" style="font-size:5.0px" fill="#075985">       @@@@@@@@@@@@@@@@@@@@@@#+=-:..:.                      ...-=+@@@@@@@@@@@@@@@@</text>
+<text x="52" y="229.34" class="ascii" style="font-size:5.0px" fill="#075985">      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*+=-:.     ....::::::.  .::==#@@@@@@@@@@@@@@@@</text>
+<text x="52" y="234.36" class="ascii" style="font-size:5.0px" fill="#075985">      @@@@@@@@@@@@@@@@@@@@@@@@@@###@@@@@@@@+: .*@@@@@@@@##**+-::=+#@@@@@@@@@@@@@@@@</text>
+<text x="52" y="239.38" class="ascii" style="font-size:5.0px" fill="#075985">     @@@@@@@@@@@@@@@@@@@@@@@@@@@##*+*#@@@@@#: .+@@@@#+--:::-**=:=*#@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="244.40" class="ascii" style="font-size:5.0px" fill="#075985">     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+:##@@@*   :+*@@*@@@@+=-:-::=*#@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="249.42" class="ascii" style="font-size:5.0px" fill="#075985">    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@##*+===@@@+    .-+*+*#@+*@@=. .-*@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="254.44" class="ascii" style="font-size:5.0px" fill="#075985">    @@@@@@@@@@@@@@@@@@@@@@*+#####*==-:-*##@*       :=++====-:   :##+-=@@@@@@@@@@@@@@@</text>
+<text x="52" y="259.46" class="ascii" style="font-size:5.0px" fill="#075985">    @@@@@@@@@@@#@@@@@@@@@@+-::...    :=##@@=                    .-  -#+#@@@@@@@@@@@@@</text>
+<text x="52" y="264.48" class="ascii" style="font-size:5.0px" fill="#075985">   @@@@@@@@@@@#=#@@@@@@@@@#+:.       :=@@@#-                    ::.: :=+@@@@@@@@@@@@@@</text>
+<text x="52" y="269.50" class="ascii" style="font-size:5.0px" fill="#075985">   @@@@@@@@@@@@-*@#@@@@@@@@#+:.     .:+@***:                   .-+.   :=@@@@@@@@@@@@@@</text>
+<text x="52" y="274.52" class="ascii" style="font-size:5.0px" fill="#075985">   @@@@@@@@@@@@#*@#@@@@@@@@#*=-...  .-@@@@@@=:-+-              :=+*   .+@@@@@@@@@@@@@@</text>
+<text x="52" y="279.54" class="ascii" style="font-size:5.0px" fill="#075985">   @@@@@@@@@@@@@@@@@@@@@@@@#*+=-:...:*@@@@@@@*+#@+            .:+::   -@@@@@@@@@@@@@@@</text>
+<text x="52" y="284.56" class="ascii" style="font-size:5.0px" fill="#075985">   @@@@@@@@@@@@@@@@@@@@@@@@##*+=-:::=*@@@@@@#*+=:            .:=*.   -@@@@@@@@@@@@@@@@</text>
+<text x="52" y="289.58" class="ascii" style="font-size:5.0px" fill="#075985">  @@@@@@@@@@@@@@@@@@@@@@@@@###*+=--+*#@@@@@##@@@+-.          .:+= . :@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="294.60" class="ascii" style="font-size:5.0px" fill="#075985">  @@@@@@@@@@@@@@@@@@@@@@@@@@##*+=*@@@@@@@@#+##*@#@*+=:       .:+:  :@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="299.62" class="ascii" style="font-size:5.0px" fill="#075985">  @@@@@@@@@@@@@@@@@@@@@@@@@@@#*+#@@@@@@@@@@@*###*#@@@@*.     .:+:.-@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="304.64" class="ascii" style="font-size:5.0px" fill="#075985">  @@@@@@@@@@@@@@@@@@@@@@@@@@@@#*@@@@@@@#+----::-=+*@@@@:   ...-#@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="309.66" class="ascii" style="font-size:5.0px" fill="#075985">  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*@#*#**++===+=:    .-=:    ..:+@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="314.68" class="ascii" style="font-size:5.0px" fill="#075985">  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#**##*++++=---:..    .......:=@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="319.70" class="ascii" style="font-size:5.0px" fill="#075985">  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@#*+-:::         ........=@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="324.72" class="ascii" style="font-size:5.0px" fill="#075985">  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*+=--:              ...:+*@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="329.74" class="ascii" style="font-size:5.0px" fill="#075985">   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*+==:. ..         :::=#++@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="334.76" class="ascii" style="font-size:5.0px" fill="#075985">   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*+-::=-::.   -+*#@@+:#@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="339.78" class="ascii" style="font-size:5.0px" fill="#075985">   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##**@@@@@#=:-@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="344.80" class="ascii" style="font-size:5.0px" fill="#075985">   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+-::@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="349.82" class="ascii" style="font-size:5.0px" fill="#075985">   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*+-:.*@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="354.84" class="ascii" style="font-size:5.0px" fill="#075985">    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*+-:..*@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="359.86" class="ascii" style="font-size:5.0px" fill="#075985">    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*=-:...+@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="364.88" class="ascii" style="font-size:5.0px" fill="#075985">    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*+==:..::+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="369.90" class="ascii" style="font-size:5.0px" fill="#075985">     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*++==-::.:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="374.92" class="ascii" style="font-size:5.0px" fill="#075985">     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#****++==-:...:*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="379.94" class="ascii" style="font-size:5.0px" fill="#075985">      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@###**+===--::.::-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="384.96" class="ascii" style="font-size:5.0px" fill="#075985">      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@*++++=---:...::=#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="389.98" class="ascii" style="font-size:5.0px" fill="#075985">       @@@@@@@@@@@@@@@@@@@@@@@@@@@*+=--==--::...:*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="395.00" class="ascii" style="font-size:5.0px" fill="#075985">       @@@@@@@@@@@@@@@@@@@@@@@@@@@*=-:.::-:::::-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="400.02" class="ascii" style="font-size:5.0px" fill="#075985">        @@@@@@@@@@@@@@@@@@@@@@@@@@@..    ....:-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="405.04" class="ascii" style="font-size:5.0px" fill="#075985">         @@@@@@@@@@@@@@@@@@@@@@@@@*         :=*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="410.06" class="ascii" style="font-size:5.0px" fill="#075985">         @@@@@@@@@@@@@@@@@@@@@@@@@+         -*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="415.08" class="ascii" style="font-size:5.0px" fill="#075985">          @@@@@@@@@@@@@@@@@@@@@@@@@@-      .:*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="420.10" class="ascii" style="font-size:5.0px" fill="#075985">           @@@@@@@@@@@@@@@@@@@@@@@@@@*.    .+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="425.12" class="ascii" style="font-size:5.0px" fill="#075985">            @@@@@@@@@@@@@@@@@@@@@@@@@@@=  .*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="430.14" class="ascii" style="font-size:5.0px" fill="#075985">             @@@@@@@@@@@@@@@@@@@@@@@@@@@#:#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="435.16" class="ascii" style="font-size:5.0px" fill="#075985">              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="440.18" class="ascii" style="font-size:5.0px" fill="#075985">               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="445.20" class="ascii" style="font-size:5.0px" fill="#075985">                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="450.22" class="ascii" style="font-size:5.0px" fill="#075985">                  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="455.24" class="ascii" style="font-size:5.0px" fill="#075985">                   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="460.26" class="ascii" style="font-size:5.0px" fill="#075985">                     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="465.28" class="ascii" style="font-size:5.0px" fill="#075985">                       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="470.30" class="ascii" style="font-size:5.0px" fill="#075985">                         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="475.32" class="ascii" style="font-size:5.0px" fill="#075985">                           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="52" y="480.34" class="ascii" style="font-size:5.0px" fill="#075985">                              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+</g>
+<rect x="50" y="134" width="456" height="348" rx="18" fill="none" stroke="#6D28D9" stroke-opacity=".08">
+ <animateTransform attributeName="transform" type="translate" values="0 0;0 2;0 0" dur="7s" repeatCount="indefinite"/>
+</rect>
+<rect x="50" y="136" width="456" height="2" fill="#0E7490" opacity="0">
+ <animate attributeName="y" values="136;480;136" dur="7s" repeatCount="indefinite"/>
+ <animate attributeName="opacity" values="0;.22;0" dur="7s" repeatCount="indefinite"/>
+</rect>
+
+<text x="54" y="511" class="body" fill="#0F172A">Mechanical Engineer → Data &amp; AI</text>
+<text x="54" y="532" class="small" fill="#475569">Bengaluru · Python · SQL · ML · AI</text>
+
+<!-- right system panel -->
+<rect x="548" y="78" width="604" height="468" rx="20" fill="#FFFFFF" fill-opacity=".46" stroke="#CBD5E1" stroke-opacity=".58" filter="url(#shadow)"/>
+<text x="578" y="108" class="label" fill="#0E7490">SYSTEM.INFO</text>
+<line x1="578" y1="121" x2="1122" y2="121" stroke="#CBD5E1" stroke-opacity=".6"/>
+<text x="578" y="149" class="small" fill="#475569">user@profile:~$ ./profile.sh</text>
+
+<text x="578" y="181" class="label" fill="#475569">&gt; NAME</text>
+<text x="700" y="181" class="value" fill="#0F172A">PRAVEEN B.M.</text>
+<text x="578" y="210" class="label" fill="#475569">&gt; ROLE</text>
+<text x="700" y="210" class="value" fill="#0E7490">DATA ANALYST · ML ENTHUSIAST</text>
+<text x="578" y="239" class="label" fill="#475569">&gt; LOCATION</text>
+<text x="700" y="239" class="value" fill="#0F172A">BENGALURU, INDIA</text>
+<text x="578" y="268" class="label" fill="#475569">&gt; FOCUS</text>
+<text x="700" y="268" class="value" fill="#0F172A">DATA · ML · AI</text>
+
+<text x="578" y="305" class="label" fill="#6D28D9">CORE.STACK</text>
+
+<!-- fewer, larger pills -->
+<g class="mono">
+ <rect x="578" y="319" width="82" height="29" rx="9" fill="#FFFFFF" stroke="#0E7490" stroke-opacity=".55"/>
+ <text x="619" y="338" text-anchor="middle" class="small" fill="#0F172A">Python</text>
+ <rect x="669" y="319" width="68" height="29" rx="9" fill="#FFFFFF" stroke="#0E7490" stroke-opacity=".55"/>
+ <text x="703" y="338" text-anchor="middle" class="small" fill="#0F172A">SQL</text>
+ <rect x="746" y="319" width="91" height="29" rx="9" fill="#FFFFFF" stroke="#6D28D9" stroke-opacity=".55"/>
+ <text x="791" y="338" text-anchor="middle" class="small" fill="#0F172A">Pandas</text>
+ <rect x="846" y="319" width="91" height="29" rx="9" fill="#FFFFFF" stroke="#6D28D9" stroke-opacity=".55"/>
+ <text x="891" y="338" text-anchor="middle" class="small" fill="#0F172A">BigQuery</text>
+ <rect x="946" y="319" width="92" height="29" rx="9" fill="#FFFFFF" stroke="#047857" stroke-opacity=".55"/>
+ <text x="992" y="338" text-anchor="middle" class="small" fill="#0F172A">Streamlit</text>
+
+ <rect x="578" y="357" width="72" height="29" rx="9" fill="#FFFFFF" stroke="#6D28D9" stroke-opacity=".55"/>
+ <text x="614" y="376" text-anchor="middle" class="small" fill="#0F172A">ML</text>
+ <rect x="659" y="357" width="86" height="29" rx="9" fill="#FFFFFF" stroke="#0E7490" stroke-opacity=".55"/>
+ <text x="702" y="376" text-anchor="middle" class="small" fill="#0F172A">LLMs</text>
+ <rect x="754" y="357" width="79" height="29" rx="9" fill="#FFFFFF" stroke="#047857" stroke-opacity=".55"/>
+ <text x="793" y="376" text-anchor="middle" class="small" fill="#0F172A">RAG</text>
+ <rect x="842" y="357" width="91" height="29" rx="9" fill="#FFFFFF" stroke="#6D28D9" stroke-opacity=".55"/>
+ <text x="888" y="376" text-anchor="middle" class="small" fill="#0F172A">Tableau</text>
+</g>
+
+<text x="578" y="417" class="label" fill="#047857">SELECTED.PROJECTS</text>
+<circle cx="587" cy="442" r="3.2" fill="#047857"/>
+<text x="600" y="446" class="body" fill="#0F172A">AI Expense Tracker</text>
+<text x="600" y="462" class="small" fill="#475569">Python · Streamlit · Gemini Function Calling</text>
+<circle cx="587" cy="488" r="3.2" fill="#0E7490"/>
+<text x="600" y="492" class="body" fill="#0F172A">Cars24 Used-Car Price Prediction</text>
+<text x="600" y="508" class="small" fill="#475569">ML pipeline · feature engineering</text>
+<text x="578" y="531" class="small" fill="#475569">~/profile $ build --analyze --learn --ship</text>
+
+<rect x="3" y="3" width="1174" height="604" rx="23" fill="none" stroke="url(#accent)" stroke-width="2" stroke-opacity=".18">
+ <animate attributeName="stroke-opacity" values=".08;.30;.08" dur="9s" repeatCount="indefinite"/>
+</rect>
+</svg>
